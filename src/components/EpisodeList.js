@@ -22,7 +22,7 @@ const [EpisodeList, setEpisodeList] = useState([]);
   }, []);
 
   return (
-    <section className="">
+    <section className="episode-list grid-view">
       <h2>
       {EpisodeList.map(e =>
         <EpisodeCard key={e.id} data={e} /> //key word to id to help browser to hold each individual data
