@@ -9,27 +9,25 @@ import { NavLink } from "react-router-dom";
 // https://react.semantic-ui.com/modules/tab/
 // https://react.semantic-ui.com/elements/button/
 // https://react.semantic-ui.com/collections/breadcrumb/
-const Navigation = () => {
-    return (
-    <div>
-        <div>
-            <Link to="/home">Home Page</Link>   
-        </div>
 
-        <div>
-            <Link to ="/Character">Character</Link>
-        </div>
-
-        <div>
-            <Link to ="/Location">Location</Link>
-        </div>
-
-        <div>
-            <Link to ="/Episode">Episode</Link>
-        </div>
-    </div>
-    ); 
-}; 
 export default function TabNav() {
-
+    return (
+        <div>
+            <div>
+                <NavLink to="/">Home Page</NavLink>   
+            </div>
+    
+            <div>
+                <NavLink to ="/Character">Character</NavLink>
+            </div>
+    
+            <div>
+                <NavLink to ="/Location">Location</NavLink>
+            </div>
+    
+            <div>
+                <NavLink to ="/Episode">Episode</NavLink>
+            </div>
+        </div>
+        ); 
 };
