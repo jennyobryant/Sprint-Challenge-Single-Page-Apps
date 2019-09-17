@@ -12,8 +12,8 @@ import { NavLink } from "react-router-dom";
 
 export default function TabNav() {
     return (
-        <div>
-            <div>
+        <div className='tabnav'>
+            <div className = "homepage">
                 <NavLink to="/">Home Page</NavLink>   
             </div>
     

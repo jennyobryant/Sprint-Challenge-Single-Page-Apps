@@ -1,11 +1,11 @@
 import React from "react";
 
 export default function LocationCard(props) {
-  return <span>
+  return <span className = "location-card">
 
-    <div> { props.data.name }</div>
+    <h2> { props.data.name }</h2>
     <div> { props.data.type } - { props.data.dimension }</div>
-    <div> { props.data.residents.length} residents</div>
+    <div className ="location-resident"> { props.data.residents.length} residents</div>
  
   </span>;
 }

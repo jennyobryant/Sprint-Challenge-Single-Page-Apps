@@ -19,12 +19,13 @@ export default function LocationsList() {
 
       return (
         <section className="location-list grid-view">
-          <h2>
+          
+
           {LocationsList.map(l =>
                 <LocationCard key={l.id} data={l} />
           )}
               
-          </h2>
+          
         </section>
       );
     }

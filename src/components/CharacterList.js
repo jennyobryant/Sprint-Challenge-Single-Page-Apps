@@ -23,11 +23,10 @@ const [CharacterList, setCharacterList] = useState([]);
 
   return (
     <section className="character-list grid-view">
-      <h2>
+        
         {CharacterList.map(c =>
         <CharacterCard key={c.id} data={c} />
           )}
-      </h2>
     </section>
   );
 }
