@@ -37,3 +37,75 @@ main {
 header h1 {
   text-align: center;
 }
+
+.character-list {
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.location-list{
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: center; 
+  justify-content: center;
+}
+
+.episode-list{
+  display: flex; 
+  flex-wrap: wrap; 
+  align-items: center; 
+  justify-content: center;
+}
+.character-card{
+  margin: 20px; 
+}
+
+.location-card{
+  border-radius: 10px; 
+  justify-content: center;
+  font-size: 14px; 
+  margin: 20px;
+  border: 1px solid black; 
+  width: 363px;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.location-resident {
+  font-weight: bold;
+  background-color: lightgray; 
+  align-items: center; 
+  justify-content: right;
+  border-radius: 0 0 10px 0;
+  width: 104px; 
+  align-self: flex-end;
+  padding: 5px;  
+}
+
+.episode-card{
+  border-radius: 10px; 
+  justify-content: center;
+  font-size: 14px; 
+  margin: 20px;
+  border: 1px solid black; 
+  width: 363px;
+  padding-top: 10px;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.tabnav {
+  display: flex; 
+  flex-wrap: wrap; 
+  margin:10px;
+  justify-content: space-evenly; 
+  
+}
+.homepage{
+  margin: 5px; 
+}
